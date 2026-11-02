@@ -53,6 +53,10 @@
    - What each tech does, why it was chosen over its alternatives (e.g. Litestar vs FastAPI, Granian vs Uvicorn, Svelte 5 vs React, SAQ vs Celery, basedpyright vs mypy, uv vs poetry).
    - Architectural trade-offs and design decisions.
 
+10. [10 - 100 Practical, Mind-Blowing & Revenue-Generating Applications](10_100_USE_CASES_AND_APPLICATIONS.md)
+    - 100 concrete, categorized real-world systems, SaaS ideas, and sovereign agent workflows you can build on LychD.
+    - Spans Developer Tooling, High-Margin B2B SaaS, Deep Intelligence, Air-Gapped Legal/Medical, Media Publishing, Red Teaming, Homelab, and Gaming.
+
 ---
 
 ## 🚀 How to Read These Guides

@@ -88,14 +88,9 @@ async def persist_research(session_id, summary: ResearchSummary):
         session_id=session_id
     )
     # Saved and available forever
+    # Saved into the Phylactery for long-term recall
+    await session.commit()
 ```
 
----
+*(For an exhaustive breakdown of 100 practical, revenue-generating, and creative systems you can build with LychD, see [10_100_USE_CASES_AND_APPLICATIONS.md](10_100_USE_CASES_AND_APPLICATIONS.md).)*
 
-## 3. Summary of Possibilities
-
-With LychD as your foundational daemon, you can build:
-- **Private Homelab Intelligence**: An assistant that watches local logs, performs Btrfs snapshots, runs security audits, and manages Docker/Podman containers without cloud access.
-- **Self-Improving Code Assistants**: Agents that write their own unit tests, measure their own execution times, and refactor slow queries autonomously.
-- **Persistent Personal Memory Bank**: A system that ingests all your personal notes, papers, and bookmarks into a local `pgvector` store, recalling relevant facts years later with zero subscription fees.
-- **Zero-Egress Enterprise Solutions**: Deployable in air-gapped environments or regulated industries (healthcare, legal, finance) where data cannot leave on-premise hardware.
