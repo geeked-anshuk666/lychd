@@ -59,6 +59,21 @@
 
 ---
 
+## 🧠 Mental Model Breakdown Series (`my-reference/mental-model/`)
+
+A dedicated 4-part series designed to demystify LychD's occult lore and provide an actionable conceptual blueprint:
+
+1. [Part 1: The Rosetta Stone of Lore Jargons](mental-model/01_ROSETTA_STONE_OF_LORE.md)
+   - Plain-English translation table mapping all occult terminology (Runes, Scrolls, Weaver, Phylactery, Animators, Ghouls, etc.) directly to software engineering counterparts.
+2. [Part 2: The Core Mental Model](mental-model/02_CORE_MENTAL_MODEL.md)
+   - 4-layer architecture diagram and step-by-step lifecycle showing how an instruction flows from user input to vector persistence.
+3. [Part 3: What Currently Exists vs. What is Work-in-Progress](mental-model/03_CURRENT_STATUS_VS_WIP.md)
+   - Honest audit of what is solid and working in the repository right now vs. what is still conceptual or experimental.
+4. [Part 4: Directions in Which You Can Build and Extend](mental-model/04_DIRECTIONS_TO_BUILD.md)
+   - 4 strategic architectural directions you can develop: Homelab Sentry, Autonomous Coding Appliance, Deep Research Engine, and Embodied NPCs.
+
+---
+
 ## 🚀 How to Read These Guides
 - **If you are completely new to LychD**: Start with [01_SYSTEM_OVERVIEW.md](01_SYSTEM_OVERVIEW.md) and [02_LORE_AND_TERMINOLOGY.md](02_LORE_AND_TERMINOLOGY.md).
 - **If you want to read/modify code**: Go directly to [03_CODEBASE_STRUCTURE.md](03_CODEBASE_STRUCTURE.md) and [04_PERSISTENCE_AND_MEMORY.md](04_PERSISTENCE_AND_MEMORY.md).
