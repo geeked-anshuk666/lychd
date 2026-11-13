@@ -74,6 +74,21 @@ A dedicated 4-part series designed to demystify LychD's occult lore and provide 
 
 ---
 
+## 🏛️ Litestar-Fullstack Parallels Series (`my-reference/parallels-from-litestar-fullstack/`)
+
+An in-depth breakdown of how LychD's architecture directly inherits and descends from [Litestar Fullstack](https://github.com/litestar-org/litestar-fullstack):
+
+1. [01 - Architectural Lineage & Overview](parallels-from-litestar-fullstack/01_ARCHITECTURAL_LINEAGE.md)
+   - How Litestar Fullstack provided the structural production skeleton for LychD.
+2. [02 - Side-by-Side Component Parallels](parallels-from-litestar-fullstack/02_SIDE_BY_SIDE_PARALLELS.md)
+   - Detailed component-by-component comparison table mapping every file and layer.
+3. [03 - What LychD Kept vs. What It Replaced](parallels-from-litestar-fullstack/03_WHAT_WAS_KEPT_VS_REPLACED.md)
+   - Retained tools (Granian, SQLAlchemy, Advanced Alchemy, SAQ, SvelteKit) vs stripped SaaS features vs newly added AI agent layers.
+4. [04 - How to Use Litestar-Fullstack to Reverse Engineer & Extend LychD](parallels-from-litestar-fullstack/04_HOW_TO_EXTEND_AND_REVERSE_ENGINEER.md)
+   - How to use Litestar Fullstack to demystify LychD code, re-add multi-tenancy, and normalize lore back to plain English.
+
+---
+
 ## 🚀 How to Read These Guides
 - **If you are completely new to LychD**: Start with [01_SYSTEM_OVERVIEW.md](01_SYSTEM_OVERVIEW.md) and [02_LORE_AND_TERMINOLOGY.md](02_LORE_AND_TERMINOLOGY.md).
 - **If you want to read/modify code**: Go directly to [03_CODEBASE_STRUCTURE.md](03_CODEBASE_STRUCTURE.md) and [04_PERSISTENCE_AND_MEMORY.md](04_PERSISTENCE_AND_MEMORY.md).
