@@ -89,6 +89,16 @@ An in-depth breakdown of how LychD's architecture directly inherits and descends
 
 ---
 
+## 🐙 Upstream GitHub Issues & Pull Requests (`my-reference/github-issues/`)
+
+Snapshot of all current and historical issues from the official repository:
+
+- [GitHub Issues & PRs Master Report](github-issues/ISSUES_REPORT.md)
+  - Full catalog of all 40 active open issues, 5 open pull requests, and 70 closed issues.
+  - Raw JSON datasets: [`open_issues.json`](github-issues/open_issues.json), [`open_pull_requests.json`](github-issues/open_pull_requests.json), [`closed_issues.json`](github-issues/closed_issues.json).
+
+---
+
 ## 🚀 How to Read These Guides
 - **If you are completely new to LychD**: Start with [01_SYSTEM_OVERVIEW.md](01_SYSTEM_OVERVIEW.md) and [02_LORE_AND_TERMINOLOGY.md](02_LORE_AND_TERMINOLOGY.md).
 - **If you want to read/modify code**: Go directly to [03_CODEBASE_STRUCTURE.md](03_CODEBASE_STRUCTURE.md) and [04_PERSISTENCE_AND_MEMORY.md](04_PERSISTENCE_AND_MEMORY.md).
